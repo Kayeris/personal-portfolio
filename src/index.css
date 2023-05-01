@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Dosis&family=Nunito&family=Shadows+Into+Light&family=Varela+Round&display=swap');
+
+:root {
+  --black: #0A0A0A;
+  --purpleblue: #4B3394;
+  --aquagreen: #51C8C0;
+  --mintgreen: #79D8AB;
+  --palegreen: #C9E0AE;
+  --paleyellow: #E4E8BF;
+  --eggwhite: #FCF9ED;
+}
+
+html {
+  font-size: 18px;
+}
+
+
+/* @media only screen and (max-width: 400px) {
+  html {
+      font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  html {
+      font-size: 5px;
+  }
+} */
+
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #FCF9ED;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 13.089rem; /* 6.854rem */
+  font-weight: 500;
+}
+
+h2 {
+  margin: 0;
+  color: #79D8AB;
+  font-family: 'Comfortaa', cursive;
+  font-size: 4.236rem;
+}
+
+h3 {
+  margin: 0;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 2.618rem;
+  color: var(--eggwhite);
+  font-weight: 400;
+}
+
+h4 {
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.618rem;
+}
+
+p {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  margin:0;
+
+  background-color: #0A0A0A;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
