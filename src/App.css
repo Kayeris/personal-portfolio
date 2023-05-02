@@ -36,25 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-
-.layerOne {
-  background-color: black;
-}
-
-.layerTwo {
-  background-color: aquamarine;
-}
-
-.layerThree {
-  background-color: rgb(49, 30, 123);
-}
-
-.layerFour {
-  background-color: rgb(37, 80, 66);
-}
-.headertext {
-  color: white;
-  font-size: 100px;
-  font-weight: bold;
-}

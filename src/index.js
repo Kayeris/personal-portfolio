@@ -1,10 +1,10 @@
 import './index.css';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Landing from "./components/pages/landing";
-import Blog from "./components/pages/blog";
+import Landing from "./pages/landing";
+import Blog from "./pages/blog";
 // import Navbar from "./components/navbar";
-import NoPage from "./components/pages/error";
+import NoPage from "./pages/error";
 
 export default function App() {
   return (

@@ -3,9 +3,10 @@ import React from "react";
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import options from './assets/particlejs-config.json';
+import options from '../assets/particlejs-config.json';
 
-import Navbar from "../navbar";
+import Navbar from "../components/navbar";
+import IntroDiv from "../components/landing-div"
 
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 
@@ -26,6 +27,7 @@ function LandingPage() {
         <ParallaxLayer speed={1} className='layerOne'>
           <Navbar/>   
           <h1 className='headertext' >Layer One Text</h1>
+          <IntroDiv/>
           <Particles classname="particlebox" id="tsparticles" init={particlesInit} loaded={particlesLoaded} options={opts} />
 
         </ParallaxLayer>
