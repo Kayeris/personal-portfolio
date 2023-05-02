@@ -2,12 +2,12 @@
     background-color: var(--black);
     padding-top: 1rem;
     padding-bottom: 1rem;
-    /* z-index: 5; */
+    z-index: 5;
 }
 
 .navlink-style {
     text-decoration-line: none;
-    /* z-index: 5; */
+    z-index: 5;
 }
 .navlinks {
     color: var(--eggwhite);
@@ -16,16 +16,16 @@
     margin-right: 55rem;
     font-family: 'Nunito';
     align-items: center;
-    /* z-index: 5; */
+    z-index: 5;
 }
 .link-div {
-    /* z-index: 5; */
+    z-index: 5;
     /* background-color: black; */
 }
 .nav-icon {
     height: 3rem;
     margin-left: 1rem;
-    /* z-index: 5; */
+    z-index: 5;
 }
 
 

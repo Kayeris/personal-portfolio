@@ -4,8 +4,8 @@ import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import options from './assets/particlejs-config.json';
-// import pic1 from './pic1.jpg'
-// import pic2 from './pic2.jpg'
+
+import Navbar from "../navbar";
 
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 
@@ -21,20 +21,21 @@ function LandingPage() {
   }, []);
 
   return (
-    <div className="App">
+    <div>
       <Parallax pages={4}>
         <ParallaxLayer speed={1} className='layerOne'>
+          <Navbar/>   
           <h1 className='headertext' >Layer One Text</h1>
           <Particles classname="particlebox" id="tsparticles" init={particlesInit} loaded={particlesLoaded} options={opts} />
 
         </ParallaxLayer>
-        <ParallaxLayer offset={1} speed={0.5} className='layerTwo'>
+        <ParallaxLayer offset={1} className='layerTwo'>
         <h1 className='headertext' >Layer 2 Text</h1>
         </ParallaxLayer>
-        <ParallaxLayer offset={2} speed={2}  className='layerThree'>
+        <ParallaxLayer offset={2} className='layerThree'>
         <h1 className='headertext' >Layer 3 Text</h1>
         </ParallaxLayer>
-        <ParallaxLayer offset={3} speed={3} className='layerFour'>
+        <ParallaxLayer offset={3} className='layerFour'>
         <h1 className='headertext' >Layer 4 Text</h1>
         </ParallaxLayer>
       </Parallax>
