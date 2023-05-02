@@ -1,0 +1,22 @@
+
+.layerOne {
+    background-color: #0a0a0a;
+    /* height: 70vh; */
+  }
+  
+  .layerTwo {
+    background-color: aquamarine;
+  }
+  
+  .layerThree {
+    background-color: rgb(49, 30, 123);
+  }
+  
+  .layerFour {
+    background-color: rgb(37, 80, 66);
+  }
+  .headertext {
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+  }

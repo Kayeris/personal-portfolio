@@ -1,0 +1,43 @@
+.navbar {
+    background-color: var(--black);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    z-index: 5;
+}
+
+.navlink-style {
+    text-decoration-line: none;
+    z-index: 5;
+}
+.navlinks {
+    color: var(--eggwhite);
+    display: flex;
+    justify-content: space-between;
+    margin-right: 55rem;
+    font-family: 'Nunito';
+    align-items: center;
+    z-index: 5;
+}
+.link-div {
+    z-index: 5;
+    /* background-color: black; */
+}
+.nav-icon {
+    height: 3rem;
+    margin-left: 1rem;
+    z-index: 5;
+}
+
+
+/* @media (max-width: 600px) {
+    .navlinks {
+        margin-right: 10rem;
+    }
+    
+} */
+/* 
+.menu {
+  color: var(--eggwhite);
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+} */
