@@ -1,24 +1,18 @@
 import "./styles/navbar.css";
 import Logo from "../components/pages/assets/logo512.png"
 import { NavLink } from "react-router-dom";
-import { useState } from "react";
+// import { useState } from "react";
 
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-// import {faQuestionCircle} from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faBars } from '@fortawesome/free-solid-svg-icons';
+// // import {faQuestionCircle} from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 function Navbar() {
 
-  const [showNav, setShowNav] = useState(false)
-
-  const toggleNavItems = () => {
-    setShowNav(!showNav)
-  }
-
   return (
     <div className="navbar">
-      <FontAwesomeIcon className='menu' size='2x' icon={faBars} />
+      {/* <FontAwesomeIcon className='menu' size='2x' icon={faBars} /> */}
       <div className="navlinks">
         <div className="link-div">
           <NavLink className="navlink-style" to="/" style={({ isActive }) => ({
