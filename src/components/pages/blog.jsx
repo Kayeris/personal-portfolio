@@ -1,6 +1,10 @@
+import Navbar from "../navbar";
+
+
 function BlogPage() {
     return (
         <div>
+            <Navbar/>
             <h1>blog</h1>
         </div>
     );
