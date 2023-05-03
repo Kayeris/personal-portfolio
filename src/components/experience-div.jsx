@@ -2,7 +2,6 @@ import React from "react";
 
 import "../styles/experience.css";
 // import Fade from 'react-reveal/Fade';
-import sittingIcon from "../assets/sitting-woman.svg";
 import standingIcon from "../assets/standing-woman.svg";
 
 function ExpDiv() {
