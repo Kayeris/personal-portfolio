@@ -26,7 +26,6 @@ function LandingPage() {
       <Parallax pages={4}>
         <ParallaxLayer speed={1} className='layerOne'>
           <Navbar/>   
-          <h1 className='headertext' >Layer One Text</h1>
           <IntroDiv/>
           <Particles classname="particlebox" id="tsparticles" init={particlesInit} loaded={particlesLoaded} options={opts} />
 
