@@ -9,7 +9,7 @@
   }
   
   .layerThree {
-    background-color: rgb(49, 30, 123);
+    background-color: var(--black);
   }
   
   .layerFour {
