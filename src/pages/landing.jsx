@@ -10,6 +10,7 @@ import IntroDiv from "../components/landing-div"
 import AboutMe from "../components/about-me-div"
 import ToolsnTech from "../components/tools-n-tech-div"
 import ProjectDiv from "../components/projects-div"
+import ExpDiv from "../components/experience-div"
 
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 
@@ -41,9 +42,8 @@ function LandingPage() {
         <ParallaxLayer speed={0.4}  offset={3} className='layerFour'>
           <ProjectDiv/>
         </ParallaxLayer>
-        <ParallaxLayer speed={0.4} factor={3} offset={4} className='layerFour'>
-          {/* <ProjectDiv/> */}
-          <h2>exp layer</h2>
+        <ParallaxLayer speed={0.4} factor={4} offset={4} className='layerFour'>
+          <ExpDiv/>
         </ParallaxLayer>
       </Parallax>
        

@@ -29,7 +29,7 @@ function ProjectDiv() {
           <ReactCardFlip isFlipped={flip1} flipDirection="vertical">
             <div className="card-box card1-front" onClick={() => setFlip1(!flip1)}></div>
             <div className="card-box card1-back" onClick={() => setFlip1(!flip1)}>
-              <h4 className="card-title">Pomodoro Chrome Extension</h4>
+              <h4 className="card-title">Project Pomodoro</h4>
               <p>A browser extension that enables students to improve their study 
                 habits by incorporating the Pomodoro technique without having to rely on external apps or tools</p>
                 <div className="link-icons">

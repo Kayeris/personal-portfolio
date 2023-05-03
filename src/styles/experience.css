@@ -1,0 +1,56 @@
+.experiences {
+    margin: 2rem;
+    color: var(--eggwhite);
+    /* padding-bottom: 200vh; */
+}
+
+.exp-header {
+    text-align: right;
+}
+
+.timeline {
+    background-image: url(../assets/timeline.svg);
+    background-repeat: repeat-y;
+    background-position: top;
+    background-size: 90vw;
+    margin-top: 3rem;
+    padding-bottom: 100vh;
+}
+
+.position-card {
+    padding-top: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding-bottom: 5rem;
+}
+
+.timeline-bg {
+    z-index: -5;
+}
+
+.position-info {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+
+.card-right {
+    text-align: right;
+}
+
+.card-left {
+    text-align: left;
+}
+
+.special-position {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+}
+
+.standing-icon{
+    height: 30vw;
+    padding-right: 2rem;
+}
