@@ -1,0 +1,44 @@
+
+.hero {
+    margin-left: 7rem;
+    margin-right: 7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-area {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    z-index: 10;
+    top: -10dvh;
+    z-index:-300;
+
+}
+
+.banner-right {
+    text-align: right;
+}
+
+.banner-text-right {
+    z-index: 10;
+    position: relative;
+    top: -10dvh;
+}
+
+.high-index {
+    z-index: 100;
+    color: aliceblue;
+    background-color: bisque;
+}
+
+.jumper {
+    height: 27rem;
+}
+
+.intro-text {
+    font-size: 6.854rem;
+    font-weight: 300;
+    color: var(--paleyellow);
+}
