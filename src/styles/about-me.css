@@ -1,0 +1,42 @@
+.about-me {
+    background-image: url(../assets/blurred-circles.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* z-index: 5; */
+    background-color: var(--black);
+    height: calc(90vh);
+    padding: 7rem;
+}
+
+.headings {
+    color: var(--eggwhite);
+}
+
+.text-padding {
+    margin: 1rem;
+}
+
+.section-headers {
+    font-weight: 300;
+    margin-top: 2rem;
+}
+
+.panel-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.education-block {
+    padding: 2rem;
+}
+.edu-info  {
+    margin-left: 3rem;
+}
+.right-align {
+    text-align: right;
+    /* margin-right: 2rem; */
+}
+
+.sittinglaptop {
+    height: 25rem;
+}
