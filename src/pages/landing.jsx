@@ -9,7 +9,7 @@ import Navbar from "../components/navbar";
 import IntroDiv from "../components/landing-div"
 import AboutMe from "../components/about-me-div"
 import ToolsnTech from "../components/tools-n-tech-div"
-
+import ProjectDiv from "../components/projects-div"
 
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 
@@ -26,8 +26,8 @@ function LandingPage() {
 
   return (
     <div>
-      <Parallax pages={4}>
-        <ParallaxLayer speed={0.1} className='layerOne'>
+      <Parallax pages={7}>
+        <ParallaxLayer className='layerOne'>
           <Navbar/>   
           <IntroDiv/>
           <Particles classname="particlebox" id="tsparticles" init={particlesInit} loaded={particlesLoaded} options={opts} />
@@ -39,7 +39,11 @@ function LandingPage() {
           <ToolsnTech/>
         </ParallaxLayer>
         <ParallaxLayer speed={0.4}  offset={3} className='layerFour'>
-        <h1 className='headertext' >Layer 4 Text</h1>
+          <ProjectDiv/>
+        </ParallaxLayer>
+        <ParallaxLayer speed={0.4} factor={3} offset={4} className='layerFour'>
+          {/* <ProjectDiv/> */}
+          <h2>exp layer</h2>
         </ParallaxLayer>
       </Parallax>
        
