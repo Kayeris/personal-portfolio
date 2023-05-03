@@ -1,0 +1,79 @@
+.project-cards {
+    background-image: url(../assets/projects-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin: 5rem; */
+}
+
+.projects {
+    padding-top: 4rem;
+    padding-bottom: 7rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    height: max-content;
+}
+
+.proj-header {
+    color: var(--eggwhite);
+}
+
+.card-grid {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-box {
+    width: 25vw;
+    height: 27vh;
+    border-radius: 5px;
+    text-align: center;
+    color: var(--eggwhite);
+    padding: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.card1-front {
+    background-image: url(../assets/projectcards/pomodoro-cover.png);
+}
+
+.card2-front {
+    background-image: url(../assets/projectcards/TrackFolio-cover.png);
+}
+
+.card3-front {
+    background-image: url(../assets/projectcards/PORTFOLIO-COVER.png);
+}
+
+.card4-front {
+    background-image: url(../assets/projectcards/design-revamp-cover.png);
+}
+
+.card5-front {
+    background-image: url(../assets/projectcards/lowkations.jpg);
+}
+
+.card6-front {
+    background-image: url(../assets/projectcards/PACS-cover.png);
+}
+
+.card1-back {
+    background-color: var(--black);
+    /* cursor: pointer; */
+}
+
+.card-title {
+    font-weight: 500;
+    color: var(--mintgreen);
+    padding-bottom: 1rem;
+}
+
+.link-icons {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

@@ -13,7 +13,7 @@
   }
   
   .layerFour {
-    background-color: rgb(37, 80, 66);
+    background-color:  var(--black);
   }
   .headertext {
     color: white;
