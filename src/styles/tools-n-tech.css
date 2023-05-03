@@ -1,0 +1,36 @@
+.tools-n-tech {
+    background-image: url(../assets/toolsntech.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:max-content;
+    /* padding-right: 5rem;
+    padding-left: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem; */
+}
+
+.tools-header {
+    font-weight: 300;
+    text-align: right;
+    margin-right: 7rem;
+    padding-top: 2rem;
+}
+
+.logo-grid {
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.logo-img {
+    height: 5rem;
+    width: auto;
+    padding: 1rem;
+}
+
+#LogoTip {
+    background-color: var(--black);
+    font-family: 'Nunito', sans-serif;
+
+}
