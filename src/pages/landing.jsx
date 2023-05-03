@@ -7,6 +7,7 @@ import options from '../assets/particlejs-config.json';
 
 import Navbar from "../components/navbar";
 import IntroDiv from "../components/landing-div"
+import AboutMe from "../components/about-me-div"
 
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 
@@ -28,15 +29,14 @@ function LandingPage() {
           <Navbar/>   
           <IntroDiv/>
           <Particles classname="particlebox" id="tsparticles" init={particlesInit} loaded={particlesLoaded} options={opts} />
-
         </ParallaxLayer>
-        <ParallaxLayer offset={1} className='layerTwo'>
-        <h1 className='headertext' >Layer 2 Text</h1>
+        <ParallaxLayer speed={2} offset={1} factor={1} className='layerTwo'>
+          <AboutMe/>
         </ParallaxLayer>
-        <ParallaxLayer offset={2} className='layerThree'>
+        <ParallaxLayer speed={3}  offset={2} className='layerThree'>
         <h1 className='headertext' >Layer 3 Text</h1>
         </ParallaxLayer>
-        <ParallaxLayer offset={3} className='layerFour'>
+        <ParallaxLayer speed={4}  offset={3} className='layerFour'>
         <h1 className='headertext' >Layer 4 Text</h1>
         </ParallaxLayer>
       </Parallax>

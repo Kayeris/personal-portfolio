@@ -1,11 +1,11 @@
 
 .layerOne {
-    background-color: #0a0a0a;
+    background-color: var(--black);
     /* height: 70vh; */
   }
   
   .layerTwo {
-    background-color: aquamarine;
+    background-color: var(--black);
   }
   
   .layerThree {
