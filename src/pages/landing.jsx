@@ -11,6 +11,7 @@ import AboutMe from "../components/about-me-div"
 import ToolsnTech from "../components/tools-n-tech-div"
 import ProjectDiv from "../components/projects-div"
 import ExpDiv from "../components/experience-div"
+import ContactDiv from "../components/contactme"
 
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 
@@ -27,7 +28,7 @@ function LandingPage() {
 
   return (
     <div>
-      <Parallax pages={7}>
+      <Parallax pages={8}>
         <ParallaxLayer className='layerOne'>
           <Navbar/>   
           <IntroDiv/>
@@ -44,6 +45,9 @@ function LandingPage() {
         </ParallaxLayer>
         <ParallaxLayer speed={0.4} factor={4} offset={4} className='layerFour'>
           <ExpDiv/>
+        </ParallaxLayer>
+        <ParallaxLayer speed={0.1} factor={1} offset={7} className='layerFour'>
+          <ContactDiv id="#contact" />
         </ParallaxLayer>
       </Parallax>
        

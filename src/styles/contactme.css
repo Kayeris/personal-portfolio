@@ -1,0 +1,38 @@
+.contactme {
+    margin: 3rem;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: row;
+    color: var(--eggwhite);
+    padding-top: 3rem;
+    justify-content: space-between;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.contact-info-text {
+    padding-left: 1rem;
+}
+
+.icon {
+    height: 3rem;  
+}
+
+.icon-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
